@@ -1,7 +1,7 @@
 body{
    
     font-family: Arial, sans-serif;
-    background-color: black;
+    background-color: rgb(5, 5, 36);
     color: rgb(236, 227, 227);
     font-size: 12px; 
     
@@ -15,12 +15,13 @@ body{
 }
 header {
     text-align: center;
-    background-color: #01142f;
-    padding: 10px;
+    background-color: #031c40;
+    padding: 8px;
     font-size: 10px;
     border-radius: 20px;
     border: solid;
     border-color: rgb(32, 32, 33);
+    margin-top: 8px;
     
 }
 * {
@@ -59,7 +60,7 @@ header {
     transition: 0s;
 }
 .fa{
-    color:rgb(241, 220, 29);
+    color:rgb(231, 230, 219);
     font-size: 14px;
     
 }
@@ -142,12 +143,12 @@ hr{
 button{
     background: rgb(220, 227, 231);
     border-radius: 10px;
-    padding: 8px;
-    margin-left: 2px;
-    cursor: grab;
+    padding: 5px;
+    margin-left: 4px;
+    cursor: pointer;
 }
 button:hover{
-    background: rgb(226, 43, 223);
+    background: rgb(15, 195, 205);
     
 }
 #contact a {
@@ -171,6 +172,7 @@ form input, textarea {
     border: solid;
     border-color: rgb(234, 237, 237);
     border-radius: 8px;
+     font-weight: bolder;
 }
 #message button {
     background: rgb(229, 235, 230);
@@ -178,18 +180,15 @@ form input, textarea {
     padding: 10px;
     margin-left: 70px;
     cursor: pointer;
-    font-style: bolder;
-    size: 5px;
+    size: 15px;
+    font-weight: bolder;
 }
 .download-btn {
-  display: inline-block;
-  background-color: #37d90f;
+  background-color: #e61919;
   color: white;
-  padding: 10px 10px;
-  text-decoration: none;
-  font-size: 18px;
+  font-size: 13px;
   border-radius: 8px;
-  margin-top: 15px;
+
 }
 
 .download-btn:hover {
@@ -206,18 +205,58 @@ form input, textarea {
 
 }
 #contact {
-    background: rgb(31, 2, 2);;
-    padding: 15px;
-    border-radius: 20px;
+    margin-right: 10px;
+    background-color: rgb(4, 4, 28);
+   
 }
-.fa-brands {
+
+.fa-brands, .fa-solid {
     font-size: 16px;
     margin-right: 5px;
 }
 #contact a {
-    color:dodgerblue
+    color:rgb(240, 242, 246);
+    margin-right: 2px;
+    font-weight: 400;
+
+}
+.mail {
+    font-size: 12px;
+    font-weight: bolder;
+    
+}
+.buttom {
+    
+    font-size: 11px;
+    color:azure;
+}
+#home button {
+    background: rgb(231, 11, 11);
+    border-radius: 7px;
+    border: solid;
+    border-color: #7c0719;
+    font-weight: bolder;
+    color: aliceblue;
+    padding: 10px;
+}
+#service button {
+    background: rgb(231, 11, 11);
+    border-radius: 7px;
+    border: solid;
+    border-color: #7c0719;
+    font-weight: bolder;
+    color: aliceblue;
+    padding: 10px;
+}
+#home button:hover{
+    background: #09cc06;
+}
+#service button:hover{
+    background: #09cc06;
 }
 
-
-
+video {
+    border-radius: 8px;
+    
+}
 
